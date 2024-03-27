@@ -1,0 +1,166 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-size: 20px;
+    text-indent: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+nav {
+    color: black;
+    padding: 20px;
+}
+hr {
+    border-radius: 15px;
+    background-color: black;
+    border: 2px solid black;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+.title {
+    margin: 0;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lineTitle {
+    border-radius: 15px;
+    background-color: black;
+    border: 3px solid black;
+    width: 55%;
+    float: left;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.welcome {
+    margin-left: 250px;
+}
+.chenge {
+    color: rgb(185, 5, 5);
+}
+.menu {
+    float: right;
+    margin: 0;
+}
+.menu li {
+    color: black;
+}
+.itens {
+    list-style: none;
+    display: inline-block;
+    color: rgba(247, 245, 245, 0.877);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.clear {
+    clear: both;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.about {
+    text-align: right;
+    color: black;
+    margin-top: 10px;
+    width: 60%;
+    float: right;
+}
+.projectImg {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.imgLink {
+    max-width: 30px;
+    max-height: auto;
+    border-radius: 100%;
+}
+.containerImg {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-left: 10%;
+}
+.containerImg img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid black;
+    object-fit: cover;
+}
+.dark {
+    max-width: 50px;
+    max-height: 50px;
+    cursor: pointer;
+    float: left;
+    position: fixed;
+    bottom: 0;
+}
+.bgDark {
+    background-color: black;
+}
+.pDark {
+    color: white;
+    font-size: 20px;
+    text-indent: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.titleDark {
+    color: white;
+    margin: 0;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lineTitleDark {
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid white;
+    width: 55%;
+    float: left;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.aDark {
+    text-decoration: none;
+    color: white;
+}
+.darkOn {
+    display: none;
+}
+.ligth {
+    max-width: 50px;
+    max-height: 50px;
+    cursor: pointer;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    display: block;
+}
+.ligthOn {
+    display: none;
+}
