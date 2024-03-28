@@ -9,8 +9,8 @@
     <body id="bg">
         <nav>
             <ul class="menu">
-                <li class="itens"><a href="#">Início</a></li>
-                <li class="itens"><a href="#">Contato</a></li>
+                <li class="itens"><a href="#" id="a1">Início</a></li>
+                <li class="itens"><a href="#" id="a2">Contato</a></li>
             </ul>
         </nav>
         <div class="clear"></div>
@@ -20,18 +20,18 @@
             <a href="https://github.com/XT07" target="_blank"><img src="public/img/github.png" class="imgLink"></a>
             <a href="https://www.linkedin.com/in/luiz-felipe-radoll-cordeiro-13134b238/" target="_blank"><img src="public/img/linkedin.png" class="imgLink"></a><br><br>
             <div class="clear"></div>
-            <hr class="lineTitle">
+            <hr id="lineTitle" class="lineTitle">
         </div>
         <div class="clear"></div>
         <div class="container">
             <div class="containerImg">
-                <img src="public/img/eu.jpg">
+                <img src="public/img/eu.jpg" id="foto" class="foton">
             </div>
             <div class="about">
-                <h2>Sobre mim</h2>
-                <p>
+                <h2 id="categoryName">Sobre mim</h2>
+                <p id = "pDark">
                     Me chamo Luiz Felipe e sou um desenvolvedor full-stack. Com habilidades em linguagens como
-                    <b>HTML, CSS, JavaScript, PHP e MySQL</b>, juntamente com o uso do <b>Node.js</b> para o ambiente de
+                    <b>HTML, CSS, JavaScript, PHP, MySQL e C++</b>, juntamente com o uso do <b>Node.js</b> para o ambiente de
                     tempo de
                     execução do JavaScript no servidor, além do framework <b>Bootstrap e do Express</b>. Minha paixão
                     está em
@@ -43,32 +43,32 @@
             </div>
             <div class="clear"></div>
             <br>
-            <hr>
+            <hr id="line">
             <div class="principalProject">
                 <center>
-                    <h2 style="text-decoration: underline;">Principais projetos</h2>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
+                    <h2 style="text-decoration: underline;" id="categoryName2">Principais projetos</h2>
+                    <a href="#" target="_blank"><img id="shadow" src="public/img/temp.webp" class="projectImg"></a>
+                    <a href="#" target="_blank"><img id="shadow2" src="public/img/temp.webp" class="projectImg"></a>
+                    <a href="#" target="_blank"><img id="shadow3" src="public/img/temp.webp" class="projectImg"></a>
+                    <a href="#" target="_blank"><img id="shadow4" src="public/img/temp.webp" class="projectImg"></a>
+                    <a href="#" target="_blank"><img id="shadow5" src="public/img/temp.webp" class="projectImg"></a>
+                    <a href="#" target="_blank"><img id="shadow6" src="public/img/temp.webp" class="projectImg"></a>
                 </center>
             </div>
             <br>
-            <hr>
+            <hr id="line2">
             <div class="recentProjects">
                 <center>
-                    <h2 style="text-decoration: underline;">Projetos recentes</h2>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
-                    <a href="#" target="_blank"><img src="public/img/temp.webp" class="projectImg"></a>
+                    <h2 style="text-decoration: underline;" id="categoryName3">Projetos recentes</h2>
+                    <a href="#" target="_blank"><img id="shadow7" src="public/img/temp.webp" class="projectImg"></a>
+                    <a href="#" target="_blank"><img id="shadow8" src="public/img/temp.webp" class="projectImg"></a>
+                    <a href="#" target="_blank"><img id="shadow9" src="public/img/temp.webp" class="projectImg"></a>
                 </center>
             </div>
             <br>
-            <hr>
+            <hr id="line3">
             <div class="lenguage">
-                <h2 style="text-decoration: underline;">Principais linguagens</h2>
+                <h2 style="text-decoration: underline;" id="categoryName4">Principais linguagens</h2>
                 <div class="descLang">
                     <ul>
                         <li>HTML</li>
@@ -84,7 +84,7 @@
             
         </footer>
         <img id="dark" class="dark" src="public/img/lua.png" onclick="dark()">
-        <img id="ligth" src="public/img/sol.png" onclick="ligth()">
+        <img id="ligth" class="ligthOn" src="public/img/sol.png" onclick="ligth()">
         <script src="js/scripts.js"></script>
     </body>
 </html>
