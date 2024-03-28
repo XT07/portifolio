@@ -98,6 +98,7 @@ h2 {
     max-width: 30px;
     max-height: auto;
     border-radius: 100%;
+    background-color: white;
 }
 .containerImg {
     width: 25%;
@@ -123,10 +124,10 @@ h2 {
 .bgDark {
     background-color: black;
 }
-.bgDark ::-webkit-scrollbar {
+.bgDark ~ ::-webkit-scrollbar {
     background-color: black;
 }
-.bgDark ::-webkit-scrollbar-thumb {
+.bgDark ~ ::-webkit-scrollbar-thumb {
     background-color: white;
 }
 .pDark {
@@ -182,4 +183,9 @@ h2 {
 }
 .shadow {
     box-shadow: 0px 0px 10px white;
+}
+.lang {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
 }
