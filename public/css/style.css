@@ -113,3 +113,7 @@ h2 {
     border: 3px solid black;
     object-fit: cover;
 }
+footer {
+    background-color: black;
+    padding: 10px;
+}
