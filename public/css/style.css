@@ -30,6 +30,51 @@ hr {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+footer {
+    background-color: black;
+    padding: 10px;
+}
+footer fieldset {
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+footer fieldset legend {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 10px 0 10px;
+}
+footer form input {
+    background: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    width: 300px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+::placeholder {
+    color: whitesmoke;
+    font-size: 15px;
+}
+textarea {
+    width: 350px;
+    height: 150px;
+    background: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    resize: vertical;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
 ::-webkit-scrollbar {
     width: 7px;
     background-color: whitesmoke;
@@ -113,7 +158,9 @@ h2 {
     border: 3px solid black;
     object-fit: cover;
 }
-footer {
-    background-color: black;
-    padding: 10px;
+.colForm{
+    width: 45%;
+    float: left;
+    color: white;
+    padding: 20px;
 }
