@@ -179,6 +179,8 @@ textarea {
     color: white;
 }
 .btnFooter {
+    background: none;
+    color: white;
     border: 2px solid white;
     border-radius: 10px;
     padding: 5px 7px 5px 7px;

@@ -1,4 +1,4 @@
-let namesToChange = ["Full Stack", "Web", "Back End", "Front End"];
+let namesToChange = ["Full Stack", "Web", "Mobile"];
 let change = document.getElementById("name");
 let position = 1;
 
@@ -11,4 +11,4 @@ function changePosition() {
     }
 }
 
-setInterval(changePosition, 3000);
+setInterval(changePosition, 2000);

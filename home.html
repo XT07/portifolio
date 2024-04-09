@@ -84,7 +84,7 @@
                 <h2 style="color: white;">CONTATO</h2>
                 <hr style="background-color: white; border: 1px solid white; width: 200px;">
             </center>
-            <form method="get" action="" onsubmit="prevForm()">
+            <form method="get" action="" onsubmit="verifyForm(event, this)">
                 <fieldset>
                     <legend>Contate por e-mail</legend>
                     <div class="colForm" style="border-right: 1px solid white;">
@@ -95,7 +95,7 @@
                         <label for="subject">Assunto:</label><br><br>
                         <textarea id="subject"></textarea><br><br>
                         <center>
-                            <buttom class="btnFooter">Enviar</buttom>
+                            <button class="btnFooter">Enviar</button>
                         </center>
                     </div>
                     <div class="colForm">
@@ -109,6 +109,7 @@
             </form>
             <br><br>
         </footer>
-        <script src="js/scripts.js"></script>
+        <script src="./js/changeName.js"></script>
+        <script src="./js/confirmForm.js"></script>
     </body>
 </html>
